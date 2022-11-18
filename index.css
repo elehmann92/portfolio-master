@@ -633,3 +633,15 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+
+.flag_icon {
+    height: 25px;
+    /* min-height: 25px; */
+}
+
+/* @media(max-width: 380px) {
+    .nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+} */
