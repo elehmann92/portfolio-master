@@ -362,13 +362,13 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 480px) {
     .nav__item:not(:last-child) {
         margin-right: var(--gutter-normal);
     }
 }
 
-@media(max-width: 300px) {
+@media(max-width: 540px) {
     .nav {
         font-size: var(--font-size-small);
     }
@@ -443,6 +443,12 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+@media(max-width: 500px) {
+    .header {
+        text-align: center;
+        font-size: 15px;
+    }
+}
 /* --------------------------------------- */
 /* ----- Work ----- */
 /* --------------------------------------- */
