@@ -614,7 +614,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .footer__social-image:hover {
-    height: 4.5rem;
+    transform: scale(1.2);
 }
 
 .footer__github-buttons {
@@ -638,10 +638,3 @@ body:not(.user-is-tabbing) a:focus {
     height: 25px;
     /* min-height: 25px; */
 }
-
-/* @media(max-width: 380px) {
-    .nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-} */
